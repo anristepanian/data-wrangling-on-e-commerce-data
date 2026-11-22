@@ -1,5 +1,5 @@
 .idea
 .env
-/Dataset
-/Output
-/Dump
+/dataset
+/output
+/dump
