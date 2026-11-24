@@ -96,7 +96,7 @@ pip install -r requirements.txt
 
 ## Known limits
 
-- Keeping the duplicates would raise net revenue by about 466k, so that rule has a real effect.
+- Keeping the duplicates would raise revenue by about 466k, so that rule has a real effect.
 - `Customer ID` is still missing in 22.24 % of clean rows. I didn't impute it, because an ID can't be estimated and the missing rows are tied to the second price level.
 - 67 customers (1.13 %) have no rows left after cleansing, so customer-level analysis leaves them out.
 - Fuzzy matching can't tell a typo from a real rename or a different product under the same code.
